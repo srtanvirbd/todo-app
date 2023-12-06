@@ -1,4 +1,4 @@
-import ToDos from "./ToDos";
+import Todos from "./ToDos";
 
 const dummyTodos = [
   {
@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <div>
       <h2>hfygujhgy</h2>
-      <ToDos todos={dummyTodos} />
+      <Todos todos={dummyTodos}></Todos>
     </div>
   );
 };
